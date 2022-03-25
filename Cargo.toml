@@ -1,0 +1,16 @@
+[package]
+name = "api-bench"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+melnet = "0.2.18"
+serde_json = "1.0.57"
+serde = { version = "1.0.126", features = ["derive"] }
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+clap = { version = "3.1.6", features = ["derive"] }
+log = "0.3.8"
+tic = "*"
+tiny_http = "0.5.8"
