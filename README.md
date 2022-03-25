@@ -5,7 +5,7 @@ It is a simple wrapper around [metered-rs](https://github.com/magnet/metered-rs)
 ## Usage
 ### Run a melnet server
 First, you should have access to a melnet server's address (either remote or locally) in the form of `IP:host`.
-To run the server locally, clone this [repo](gh repo clone themeliolabs/melnet) and `cargo run`. Note the IP and host in the console output.
+To run the server locally, clone this repo: `gh repo clone themeliolabs/melnet)` and `cargo run`. Note the IP and host in the console output.
 
 ### Run the load test
 ``` sh
