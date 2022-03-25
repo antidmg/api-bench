@@ -8,12 +8,6 @@ First, you should have access to a melnet server's address (either remote or loc
 To run the server locally, clone this [repo](gh repo clone themeliolabs/melnet) and `cargo run`. Note the IP and host in the console output.
 
 ### Run the load test
-In this project's root directory, run:
-
-``` sh
-cargo run -- -h HOST -p PORT -t 
-```
-
 ``` sh
 api-bench 0.1.0
 Command line arguments
