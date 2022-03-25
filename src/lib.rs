@@ -1,3 +1,3 @@
-mod http;
+mod load_test;
 
-pub use http::HttpReporter;
+pub use load_test::{load_test, LoadTester};
